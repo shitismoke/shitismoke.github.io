@@ -1,0 +1,187 @@
+@font-face {
+  font-family: 'gotham-black';
+  src: url('assets/fonts/Gotham-Black.ttf');
+}
+
+@font-face {
+  font-family: 'gotham-book';
+  src: url('assets/fonts/Gotham-Book.ttf');
+}
+
+a {
+  text-decoration: none;
+}
+
+body,
+html {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: -webkit-linear-gradient(
+    top,
+    white 0,
+    white 188px,
+    #f8a75d 188px,
+    #f8a75d
+  );
+  background: -o-linear-gradient(
+    top,
+    white 0,
+    white 188px,
+    #f8a75d 188px,
+    #f8a75d
+  );
+  background: linear-gradient(
+    to bottom,
+    white 0,
+    white 188px,
+    #f8a75d 188px,
+    #f8a75d
+  );
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-family: 'gotham-book';
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.button.app-store {
+  margin-right: 26px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin: 98px 29px 0 29px;
+}
+
+.credits {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 26px;
+  margin-top: 30px;
+}
+
+.credits a {
+  color: white;
+  text-decoration: underline;
+}
+
+.hero {
+  color: #44464a;
+  font-family: 'gotham-black';
+  font-size: 53px;
+  line-height: 57px;
+  margin-bottom: 44px;
+  margin-top: 74px;
+  max-width: 622px;
+}
+
+.hero .primary {
+  color: white;
+}
+
+.left {
+  margin-right: 25px;
+}
+
+.title {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.title h1 {
+  color: #44464a;
+  font-family: 'gotham-black';
+  font-size: 32px;
+  line-height: 29px;
+  margin: 0 0 0 15px;
+}
+
+.title .primary {
+  color: #f8a75d;
+}
+
+@media (max-width: 1023px) {
+  body,
+  html {
+    background: -webkit-linear-gradient(
+      top,
+      white 0,
+      white 104px,
+      #f8a75d 104px,
+      #f8a75d
+    );
+    background: -o-linear-gradient(
+      top,
+      white 0,
+      white 104px,
+      #f8a75d 104px,
+      #f8a75d
+    );
+    background: linear-gradient(
+      to bottom,
+      white 0,
+      white 104px,
+      #f8a75d 104px,
+      #f8a75d
+    );
+  }
+
+  .button {
+    width: 122px;
+  }
+
+  .button.app-store {
+    margin-right: 6px;
+  }
+
+  .container {
+    margin-top: 16px;
+  }
+
+  .credits {
+    font-size: 13px;
+    margin-top: 49px;
+  }
+
+  .hero {
+    font-size: 30px;
+    line-height: 37px;
+    margin-top: 60px;
+  }
+
+  .left {
+    display: none;
+  }
+
+  .title img {
+    height: 46px;
+  }
+
+  .title h1 {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
