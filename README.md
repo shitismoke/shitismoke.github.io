@@ -1,4 +1,7 @@
-# shitismoke.github.io
-Sh*t! I Smoke Landing Page
+# shootismoke.github.io
 
-The mobile app repository is here: https://github.com/amaurymartiny/shit-i-smoke
+Shoot! I Smoke Landing Page
+
+Moved to https://github.com/shootismoke/shootismoke.github.io
+
+The mobile app repository is here: https://github.com/amaurymartiny/shoot-i-smoke
